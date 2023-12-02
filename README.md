@@ -14,3 +14,4 @@ Scikit-learn : 1.2.2
 numpy : 1.23.5  
 matplotlib : 3.7.1  
 opencv-python : 4.8.0.76  
+(不建議使用不同版本，可能會導致程式出錯)  
