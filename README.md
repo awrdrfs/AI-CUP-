@@ -16,3 +16,5 @@ matplotlib : 3.7.1
 opencv-python : 4.8.0.76  
 (不建議使用不同版本，可能會導致程式出錯)  
 # 重要模塊輸入/輸出  
+# 棋風辨識說明  
+playStyleTrain用於訓練模型、playStylePredict用於預測，兩程式都是.ipynb檔可以直接上傳colab  
