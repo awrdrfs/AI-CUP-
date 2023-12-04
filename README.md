@@ -18,3 +18,6 @@ opencv-python : 4.8.0.76
 # 重要模塊輸入/輸出  
 # 棋風辨識說明  
 playStyleTrain用於訓練模型、playStylePredict用於預測，兩程式都是.ipynb檔可以直接上傳colab  
+# 棋力模仿說明  
+在訓練棋力模仿前，請先使用preProcess.py將dan/kyu原本的資料從英文座標轉為數字座標，並於danKyuTrain.py的11行指定要訓練dan/kyu  
+執行danKyuTrain.py會顯示模型結構與訓練過程，並自動儲存模型權重  
