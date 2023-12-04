@@ -29,7 +29,7 @@ liberties(board)
 輸入：board=目標棋盤  
 輸出：目標棋盤氣的分布  
 dataMaker(gameCount, games, color)  
-輸入：gameCount=指定步數、games=資料集、color=該棋譜指定的顏色(黑/白)  
+輸入：gameCount=指定步數、games=資料集、color=各棋局要預測的顏色(黑/白)  
 輸出：x=訓練資料、y=驗證資料  
 get_data(i)  
 輸入：i=從資料集中隨機取一組資料  
