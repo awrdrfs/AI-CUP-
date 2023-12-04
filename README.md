@@ -16,9 +16,11 @@ matplotlib : 3.7.1
 opencv-python : 4.8.0.76  
 (不建議使用不同版本，可能會導致程式出錯)  
 # 重要模塊輸入/輸出 
+dieCheck, twoColor, liberties 棋風辨識、棋力模仿皆有使用
+dataMaker 僅為棋力模仿使用
 dieCheck(all, target, row, column)  
 輸入：all=吃子該顏色的局面、target=被吃子該顏色的局面、row, cloumn=檢查目標的座標  
-輸出：若有吃子回傳提子後的target，若無回傳target  
+輸出：若有吃子回傳提子後的 target，若無回傳 target  
 twoColor(moves, previous_board=None)  
 輸入：moves=previous_board接下來的棋路、previous_board=先前的棋局(預設None)  
 輸出：blackAll=黑子在棋盤的分布、whiteAll=白子在棋盤的分布  
