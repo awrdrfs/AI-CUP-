@@ -17,7 +17,8 @@ opencv-python : 4.8.0.76
 (不建議使用不同版本，可能會導致程式出錯)  
 # 重要模塊輸入/輸出 
 dieCheck, twoColor, liberties 棋風辨識、棋力模仿皆有使用
-dataMaker 僅為棋力模仿使用
+dataMaker 僅為棋力模仿使用  
+get_data 僅為棋風辨識使用  
 dieCheck(all, target, row, column)  
 輸入：all=吃子該顏色的局面、target=被吃子該顏色的局面、row, cloumn=檢查目標的座標  
 輸出：若有吃子回傳提子後的 target，若無回傳 target  
@@ -29,6 +30,9 @@ liberties(board)
 輸出：目標棋盤氣的分布  
 dataMaker(gameCount, games, color)  
 輸入：gameCount=指定步數、games=資料集、color=指定顏色(黑/白)  
+輸出：x=訓練資料、y=驗證資料  
+get_data(i)  
+輸入：i=從資料集中隨機取樣  
 輸出：x=訓練資料、y=驗證資料  
 # 棋風辨識說明  
 playStyleTrain 用於訓練模型、playStylePredict 用於預測，兩程式都是.ipynb檔可以直接上傳 colab  
