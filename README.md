@@ -15,7 +15,8 @@ numpy : 1.23.5
 matplotlib : 3.7.1  
 opencv-python : 4.8.0.76  
 (不建議使用不同版本，可能會導致程式出錯)  
-# 重要模塊輸入/輸出  
+# 重要模塊輸入/輸出 
+dieCheck(all, target, row, column) 輸入：all=吃子該顏色的局面、target=被吃子該顏色的局面、row, cloumn=檢查目標的座標，輸出：若有吃子回傳提子後的target，若無回傳target
 # 棋風辨識說明  
 playStyleTrain 用於訓練模型、playStylePredict 用於預測，兩程式都是.ipynb檔可以直接上傳 colab  
 playStyleTrain 執行前請確認資料集的路徑，執行時會顯示模型結構與訓練過程，並自動儲存模型權重  
