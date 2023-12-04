@@ -16,7 +16,7 @@ matplotlib : 3.7.1
 opencv-python : 4.8.0.76  
 (不建議使用不同版本，可能會導致程式出錯)  
 # 重要模塊輸入/輸出 
-dieCheck, twoColor, liberties 棋風辨識、棋力模仿皆有使用
+dieCheck, twoColor, liberties 棋風辨識、棋力模仿皆有使用  
 dataMaker 僅為棋力模仿使用  
 get_data 僅為棋風辨識使用  
 dieCheck(all, target, row, column)  
